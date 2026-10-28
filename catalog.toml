@@ -1,0 +1,13 @@
+# Source catalog for this standalone repository only.
+[[plugin]]
+id = "lonefrogg/throne-vpn"
+name = "Throne VPN"
+version = "2.1.1"
+plugin_api = 24
+author = "lonefrogg"
+license = "MIT"
+icon = "shield"
+description = "Control Throne TUN profiles and view saved speed tests from a native panel."
+tags = ["bar", "panel", "service", "network", "privacy"]
+dependencies = ["python3", "thronectl"]
+

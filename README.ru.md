@@ -39,7 +39,7 @@ Throne должен быть запущен с включённым API, нас�
 Добавление GitHub-репозитория в источники Noctalia:
 
 ```
-noctalia msg plugins source add throne-vpn git https://github.com/lonefrogg/throne-vpn.git
+noctalia msg plugins source add throne-vpn git https://github.com/lonefrogg/noctalia_throne_plugin.git
 noctalia msg plugins enable lonefrogg/throne-vpn
 ```
 

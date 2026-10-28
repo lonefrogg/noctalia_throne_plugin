@@ -2,7 +2,7 @@
 
 Control [Throne](https://github.com/throneproj/Throne) from a native Noctalia bar widget and attached panel. Browse VPN profiles, switch TUN connections and compare saved connection metrics without opening the Throne window.
 
-[Project repository](https://github.com/lonefrogg/throne-vpn)
+[Project repository](https://github.com/lonefrogg/noctalia_throne_plugin)
 
 ## Features
 
@@ -39,7 +39,7 @@ Throne must be running with its API enabled, at least one profile configured and
 Add this repository as a Noctalia plugin source and enable the plugin:
 
 ```sh
-noctalia msg plugins source add throne-vpn git https://github.com/lonefrogg/throne-vpn.git
+noctalia msg plugins source add throne-vpn git https://github.com/lonefrogg/noctalia_throne_plugin.git
 noctalia msg plugins enable lonefrogg/throne-vpn
 ```
 

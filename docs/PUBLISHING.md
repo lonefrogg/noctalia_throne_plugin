@@ -44,7 +44,7 @@ git add README.md README.ru.md LICENSE .gitignore .github catalog.toml docs test
 git diff --cached --stat
 git diff --cached --check
 git commit -m "Add Throne VPN plugin for Noctalia"
-git remote add origin https://github.com/lonefrogg/throne-vpn.git
+git remote add origin https://github.com/lonefrogg/noctalia_throne_plugin.git
 git push -u origin main
 ```
 
@@ -53,7 +53,7 @@ Review staged content before committing/pushing. Use your chosen public Git iden
 Once published, installation is:
 
 ```sh
-noctalia msg plugins source add throne-vpn git https://github.com/lonefrogg/throne-vpn.git
+noctalia msg plugins source add throne-vpn git https://github.com/lonefrogg/noctalia_throne_plugin.git
 noctalia msg plugins enable lonefrogg/throne-vpn
 ```
 
